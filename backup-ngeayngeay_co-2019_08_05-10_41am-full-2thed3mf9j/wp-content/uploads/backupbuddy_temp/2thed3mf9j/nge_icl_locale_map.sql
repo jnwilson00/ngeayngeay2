@@ -1,0 +1,10 @@
+CREATE TABLE `nge_icl_locale_map` (  `code` varchar(7) COLLATE utf8mb4_unicode_520_ci NOT NULL,  `locale` varchar(35) COLLATE utf8mb4_unicode_520_ci NOT NULL,  UNIQUE KEY `code` (`code`,`locale`)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40000 ALTER TABLE `nge_icl_locale_map` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `nge_icl_locale_map` VALUES('en', 'en_US');
+INSERT INTO `nge_icl_locale_map` VALUES('kh', 'km_KH');
+INSERT INTO `nge_icl_locale_map` VALUES('th', 'th');
+/*!40000 ALTER TABLE `nge_icl_locale_map` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;

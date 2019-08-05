@@ -1,0 +1,10 @@
+CREATE TABLE `nge_vcht_fields` (  `id` mediumint(9) NOT NULL AUTO_INCREMENT,  `inLoginPanel` tinyint(1) NOT NULL DEFAULT '1',  `ordersort` smallint(5) NOT NULL,  `title` varchar(128) COLLATE utf8mb4_unicode_520_ci NOT NULL,  `backendTitle` varchar(128) COLLATE utf8mb4_unicode_520_ci NOT NULL,  `type` varchar(32) COLLATE utf8mb4_unicode_520_ci NOT NULL,  `isRequired` tinyint(1) NOT NULL DEFAULT '1',  `icon` varchar(64) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT 'fa fa-info-circle',  `iconPosition` tinyint(1) NOT NULL DEFAULT '0',  `placeholder` varchar(250) COLLATE utf8mb4_unicode_520_ci NOT NULL,  `validation` varchar(64) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  `validationMin` smallint(5) NOT NULL,  `validationMax` smallint(5) NOT NULL,  `validationCaracts` varchar(250) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  `showInDetails` tinyint(1) NOT NULL DEFAULT '1',  `optionsValues` text COLLATE utf8mb4_unicode_520_ci NOT NULL,  `valueMin` smallint(9) NOT NULL DEFAULT '0',  `valueMax` smallint(9) NOT NULL DEFAULT '100',  `defaultValue` varchar(250) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  `infoType` varchar(64) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  UNIQUE KEY `id` (`id`)) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40000 ALTER TABLE `nge_vcht_fields` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `nge_vcht_fields` VALUES('1', '0', '0', 'Your email', 'Email', 'textfield', '1', 'fa-envelope-o', '0', 'My email', 'email', '0', '0', '', '1', '', '0', '100', '', 'email');
+INSERT INTO `nge_vcht_fields` VALUES('2', '0', '0', 'Your message', 'Message', 'textarea', '1', 'fa fa-info-circle', '0', '', '', '0', '0', '', '1', '', '0', '100', '', '');
+INSERT INTO `nge_vcht_fields` VALUES('3', '1', '0', 'Your email', 'Email', 'textfield', '1', 'fa-envelope-o', '0', 'My email', 'email', '0', '0', '', '1', '', '0', '100', '', 'email');
+/*!40000 ALTER TABLE `nge_vcht_fields` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;

@@ -1,0 +1,657 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: WP_Visual_Chat\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"Language: fr_FR\n"
+
+msgid "Visual Chat"
+msgstr "Chat visuel"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "No"
+msgstr "Non"
+
+msgid "Online"
+msgstr "En ligne"
+
+msgid "Offline"
+msgstr "Hors ligne"
+
+msgid "Log in"
+msgstr "Se connecter"
+
+msgid "Log out"
+msgstr "Se déconnecter"
+
+msgid "Drop files to upload here"
+msgstr "Déposez vos fichiers ici"
+
+msgid "File is too big (max size: {{maxFilesize}}MB)"
+msgstr "Le fichier est trop lourd (taille max : {{maxFilesize}}MB)"
+
+msgid "Invalid file type"
+msgstr "Extension invalide"
+
+msgid "You can not upload any more files"
+msgstr "Vous ne pouvez pas envoyer davantage de fichiers"
+
+msgid "Shows an element of the website"
+msgstr "Montrer un élément du site web"
+
+msgid "Remove"
+msgstr "Supprimer"
+
+msgid "Display"
+msgstr "Afficher"
+
+msgid "Search"
+msgstr "Chercher"
+
+msgid "Showing page %1$s of %2$s"
+msgstr "Page %1$s sur %2$s"
+
+msgid "- filtered from %1$s documents"
+msgstr "- documents filtrés sur %1$s"
+
+msgid "No documents to display"
+msgstr "Aucun document à afficher"
+
+msgid "Do you want to reply ?"
+msgstr "Voulez-vous répondre ?"
+
+msgid "New chat request from"
+msgstr "Nouvelle demande de chat de"
+
+msgid "Another operator has already answered"
+msgstr "Un autre opérateur a déjà répondu"
+
+msgid "[username] stopped the chat"
+msgstr "[username] a fermé le chat"
+
+msgid "Current operator"
+msgstr "Opérateur actuel"
+
+msgid "[username1] tranfers the chat to [username2]"
+msgstr "[username1] transfère la discussion à [username2]"
+
+msgid "Settings"
+msgstr "Paramètres"
+
+msgid "Canned messages"
+msgstr "Messages prédéfinis"
+
+msgid "You are currently"
+msgstr "Vous êtes actuellement"
+
+msgid "Current chats"
+msgstr "Chats actuels"
+
+msgid "There is currently no chat"
+msgstr "Il n'y a pas de chat pour le moment"
+
+msgid "Online users"
+msgstr "Utilisateurs en ligne"
+
+msgid "There is currently no visitor online"
+msgstr "Il n'y a actuellement aucun visiteur en ligne"
+
+msgid "Online operators"
+msgstr "Opérateurs en ligne"
+
+msgid "Do you want to login as chat operator ?"
+msgstr "Voulez-vous vous connecter en tant qu'opérateur ?"
+
+msgid "View history"
+msgstr "Voir l'historique"
+
+msgid "Transfer the chat"
+msgstr "Transferer le chat"
+
+msgid "Write your message here"
+msgstr "Écrivez votre message ici"
+
+msgid "Use a canned message"
+msgstr "Message prédéfini"
+
+msgid "Transfer some files"
+msgstr "Transférer des fichiers"
+
+msgid "Show an element"
+msgstr "Montrer un élément"
+
+msgid "Send"
+msgstr "Envoyer"
+
+msgid "Reply"
+msgstr "Répondre"
+
+msgid "Decline"
+msgstr "Décliner"
+
+msgid "General"
+msgstr "Général"
+
+msgid "Login panel"
+msgstr "Panneau d'identification"
+
+msgid "Contact form"
+msgstr "Formulaire de contact"
+
+msgid "Operators roles"
+msgstr "Rôles autorisés à être opérateur"
+
+msgid "Design"
+msgstr "Apparence"
+
+msgid "Texts"
+msgstr "Textes"
+
+msgid "Activate the chat"
+msgstr "Activer le chat"
+
+msgid "This option allows you to fully disable or enable the chat system"
+msgstr "Cette option vous permet d'entière activer ou désactiver le système de chat"
+
+msgid "Enable chat only for logged users ?"
+msgstr "Activer le chat uniquement pour les utilisateurs loggés ?"
+
+msgid "Only logged users will see the chat panel"
+msgstr "Seuls les utilisateurs enregistrés peuvent voir le panneau de chat"
+
+msgid "View online visitors in realtime"
+msgstr "Voir les visiteurs en temps réel"
+
+msgid "This option can be disabled to preserve server network resources"
+msgstr "Cette option peut être désactivée pour préserver des resources réseau sur le serveur"
+
+msgid "Users detection delay (in seconds)"
+msgstr "Délai de détection des utilisateurs"
+
+msgid "The shorter the delay limit, the more network resources will be used"
+msgstr "Plus le délai est court et plus de ressources réseau seront utilisées"
+
+msgid "Messages detection delay (in seconds)"
+msgstr "Délai de détection des messages"
+
+msgid "Operators can see the users history"
+msgstr "Les opérateurs peuvent consulter l'historique des chats"
+
+msgid "Disable it to allow only administrators to see the logs"
+msgstr "Désactivez cette option pour permettre à l'admin seulement de consulter l'historique"
+
+msgid "Play sound notifications for operators"
+msgstr "Notification sonore pour les opérateurs"
+
+msgid "The operator will be warned by a sound when there is a new message"
+msgstr "L'opérateur sera alerté par une notification sonore quand un nouveau message arrive"
+
+msgid "Play sound notifications for customers"
+msgstr "Notification sonore pour les clients"
+
+msgid "The customer will be warned by a sound when there is a new message"
+msgstr "Le visiteur sera averti par une alerte sonore quand il recevra un nouveau message"
+
+msgid "Activate users geolocalization"
+msgstr "Activer la géolocalisation des visiteurs"
+
+msgid "The plugin will detect the city and country of the users"
+msgstr "Le plugin detectera la ville et le pays des utilisateurs"
+
+msgid "Allow operators to send files"
+msgstr "Autoriser les opérateurs à envoyer des fichiers"
+
+msgid "The operators will be able to send files to the customers"
+msgstr "Les opérateurs pourront envoyer des fichiers aux utilisateurs"
+
+msgid "Allow customers to send files"
+msgstr "Autoriser les utilisateurs à envoyer des fichiers"
+
+msgid "The customers will be able to send files to the operators"
+msgstr "Les utilisateurs pourront envoyer des fichiers"
+
+msgid "Maximum size of files sent"
+msgstr "Taille maximum des fichiers"
+
+msgid "Fill the maximum allowed size for uploaded files in MB"
+msgstr "Entrez la taille maximum autorisée pour l'envoi de fichiers, en MB"
+
+msgid "Allowed extensions for files"
+msgstr "Extensions de fichiers autorisées"
+
+msgid "Enter the allowed extensions separated by commas"
+msgstr "Entrez les extensions autorisées, séparées par des virgules"
+
+msgid "Show a close button"
+msgstr "Afficher un bouton \"Fermer\""
+
+msgid "It will add a button in the chat panel that allows the customer to close the chat"
+msgstr "Cela ajoutera un bouton au chat permettant à l'utilisateur de le fermer"
+
+msgid "Show a fullscreen button"
+msgstr "Afficher un bouton \"Plein écran\""
+
+msgid "It will add a button in the chat panel that allows the customer to show the chat in fullscreen"
+msgstr "Cela ajoutera un bouton au chat permettant à l'utilisateur de l'ouvrir en plein écran"
+
+msgid "Show a minimize button"
+msgstr "Afficher un bouton \"Réduire\""
+
+msgid "It will add a button in the chat panel that allows the customer to minimize the chat"
+msgstr "Cela ajoutera un bouton au chat permettant à l'utilisateur de le réduire"
+
+msgid "Delete all logs"
+msgstr "Supprimer tous les journaux"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Show a login panel"
+msgstr "Afficher un panneau d'identification"
+
+msgid "The visitor will directly access to the chat panel if this option is disabled"
+msgstr "Les utilisateurs accederont directement à la discussion si cette option est désactivée"
+
+msgid "Icon"
+msgstr "Icône"
+
+msgid "Select an icon"
+msgstr "Sélectionnez une icône"
+
+msgid "Add a field"
+msgstr "Ajouter un champ"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Title on backend"
+msgstr "Titre sur le panneau opérateur"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Is required"
+msgstr "Est requis"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Show a contact form when there is no operator online"
+msgstr "Afficher un formulaire de  contact quand il n'y a aucun opérateur en ligne"
+
+msgid "If this option is disabled, the chat panel will be hidden when there is no operator online"
+msgstr "Si cette option est désactivée, le panneau de chat sera masqué lorsqu'il n'y a aucun opérateur connecté"
+
+msgid "Admin email"
+msgstr "Email de l'administrateur"
+
+msgid "You can add several emails separated by commas"
+msgstr "Vous pouvez ajouter plusieurs emails séparés par des virgules"
+
+msgid "Email subject"
+msgstr "Sujet de l'email"
+
+msgid "It will be the subject of the received email"
+msgstr "Ce sera le sujet de l'email reçu"
+
+msgid "Role"
+msgstr "Rôle"
+
+msgid "Allowed to be chat operator"
+msgstr "Peut être opérateur de chat"
+
+msgid "Google font name"
+msgstr "Nom de la police"
+
+msgid "Chat panel position"
+msgstr "Position du panneau de chat"
+
+msgid "Left"
+msgstr "Gauche"
+
+msgid "Right"
+msgstr "Droite"
+
+msgid "Choose the corner where the chat panel will be displayed"
+msgstr "Choisissez le coin de l'écran où le panneau de chat sera affiché"
+
+msgid "Bounce Fx"
+msgstr "Effet de rebond"
+
+msgid "Main logo"
+msgstr "Logo principal"
+
+msgid "Select an image"
+msgstr "Modifier l'image"
+
+msgid "Default operator avatar"
+msgstr "Image par défaut de l'opérateur"
+
+msgid "Customer avatar"
+msgstr "Image des clients"
+
+msgid "Border radius of the chat panel"
+msgstr "Arrondissement des angles du panneau"
+
+msgid "ex"
+msgstr "ex"
+
+msgid "Width of the chat panel"
+msgstr "Largeur du panneau"
+
+msgid "Height of the chat panel"
+msgstr "Hauteur du panneau"
+
+msgid "Panel shadow"
+msgstr "Ombre du panneau"
+
+msgid "It will show or hide the shadow effect behind the chat panel"
+msgstr "Cela affichera ou masquera l'effet d'ombre sous le panneau du chat"
+
+msgid "Shining elements color"
+msgstr "Couleur de l'élément en surbrillance"
+
+msgid "Background color"
+msgstr "Couleur de fond"
+
+msgid "Texts color"
+msgstr "Couleur des textes"
+
+msgid "Main icons color"
+msgstr "Couleur principale des icônes"
+
+msgid "Header background color"
+msgstr "Couleur de fond de l'entête"
+
+msgid "Header text color"
+msgstr "Couleur du texte de l'entête"
+
+msgid "Header buttons background color"
+msgstr "Couleur de fond des boutons de l'entête"
+
+msgid "Header buttons text color"
+msgstr "Couleur du textedes boutons de l'entête"
+
+msgid "Scrollbar background color"
+msgstr "Couleur de fond de la barre de scroll"
+
+msgid "Scrollbar color"
+msgstr "Couleur de la barre de scroll"
+
+msgid "Loader background color"
+msgstr "Couleur de fond du loader"
+
+msgid "Loader color"
+msgstr "Couleur du loader"
+
+msgid "Labels color"
+msgstr "Couleur des labels"
+
+msgid "Operator bubbles background color"
+msgstr "Couleur de fond des bulles des opérateurs"
+
+msgid "Operator bubbles text color"
+msgstr "Couleur du texte des bulles des opérateurs"
+
+msgid "Customer bubbles background color"
+msgstr "Couleur de fond des bulles des utilisateurs"
+
+msgid "Customer bubbles text color"
+msgstr "Couleur du texte des bulles des utilisateurs"
+
+msgid "Fields background color"
+msgstr "Couleur de fond des champs"
+
+msgid "Fields texts color"
+msgstr "Couleur du texte des champs"
+
+msgid "Fields border color"
+msgstr "Couleur de la bordure des champs"
+
+msgid "Active field border color"
+msgstr "Couleur de la bordure du champ actif"
+
+msgid "Use po file/WPML ?"
+msgstr "Utiliser les fichiers .po / WPML ?"
+
+msgid "Disable this option to edit the texts directly from this panel"
+msgstr "Désactivez cette option pour éditer les textes directement depuis ce panneau"
+
+msgid "Default text"
+msgstr "Texte par défaut"
+
+msgid "Final text"
+msgstr "Texte final"
+
+msgid "My informations"
+msgstr "Mes informations"
+
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Avatar"
+msgstr ""
+
+msgid "Confirm"
+msgstr "Confirmer"
+
+msgid "Choose a canned message"
+msgstr "Choisissez un message prédéfini"
+
+msgid "Send files"
+msgstr "Envoyer des fichiers"
+
+msgid "Add to my message"
+msgstr "Ajouter à mon message"
+
+msgid "Navigate to the desired page and click the button below"
+msgstr "Naviguez sur la page désirée et cliquez sur le bouton ci-dessous"
+
+msgid "Select the element"
+msgstr "Sélectionnez un élément"
+
+msgid "Click the desired element on the page"
+msgstr "Cliquez sur l'élément souhaité"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Do you want to show the item that is highlighted ?"
+msgstr "Voulez vous montrer cet élément à l'utilisateur ?"
+
+msgid "History of the user"
+msgstr "Historique de cet utilisateur"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Time"
+msgstr "Heure"
+
+msgid "City"
+msgstr "Ville"
+
+msgid "Country"
+msgstr "Pays"
+
+msgid "User"
+msgstr "Utilisateur"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Add a new message"
+msgstr "Ajouter un message"
+
+msgid "Text"
+msgstr "Texte"
+
+msgid "Shortcut"
+msgstr "Raccourcis"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "Edit a canned message"
+msgstr "Editer un message prédéfini"
+
+msgid "Keyboard shortcut"
+msgstr "Raccourci clavier"
+
+msgid "Shortcodes that can be used in the text"
+msgstr "Shortcodes que vous pouvez utiliser dans le texte"
+
+msgid "Displays the username"
+msgstr "Afficher le nom"
+
+msgid "Displays the operator name"
+msgstr "Afficher le nom de l'opérateur"
+
+msgid "Displays the website url"
+msgstr "Afficher l'url du site"
+
+msgid "Add to all operators"
+msgstr "Ajouter pour tous les opérateurs"
+
+msgid "Edit a field"
+msgstr "Editer un champ"
+
+msgid "Label"
+msgstr "Titre"
+
+msgid "The title that will be displayed on frontend"
+msgstr "Le titre qui sera affiché sur le panneau de chat"
+
+msgid "Show on the backend chat panel ?"
+msgstr "Afficher sur le panneau de chat de l'opérateur"
+
+msgid "Do you want to show this information in the chat panel for operators ?"
+msgstr "Voulez-vous afficher cette information sur la panneau des opérateurs ?"
+
+msgid "Backend label"
+msgstr "Titre affiché pour l'opérateur"
+
+msgid "The title that will be displayed on backend"
+msgstr "Le titre qui sera affiché sur le panneau des opérateurs"
+
+msgid "Choose a type for this field"
+msgstr "Choisissez un type pour ce champ"
+
+msgid "Type of information"
+msgstr "Type d'information"
+
+msgid "Is required ?"
+msgstr "Est requis ?"
+
+msgid "Choose if the user must fill the field to continue"
+msgstr "Choisissez si l'utilisateur doit remplir ce champ pour continuer"
+
+msgid "Options of the dropdown"
+msgstr "Options du menu de sélection"
+
+msgid "Option value"
+msgstr "Nom de l'option"
+
+msgid "Add a new option"
+msgstr "Ajouter option"
+
+msgid "Placeholder"
+msgstr "Placeholder"
+
+msgid "Set the placeholder text for this field"
+msgstr "Entrez le texte placeholder de ce champ"
+
+msgid "Default value"
+msgstr "Valeur par défaut"
+
+msgid "Defines the default value of this field"
+msgstr "Définit la valeur par défaut de ce champ"
+
+msgid "Validation"
+msgstr "Validation"
+
+msgid "None"
+msgstr "Aucun"
+
+msgid "Phone"
+msgstr "Téléphone"
+
+msgid "Must be filled"
+msgstr "Doit être rempli"
+
+msgid "Custom"
+msgstr "Personnalisée"
+
+msgid "Select a validation method"
+msgstr "Sélectionnez une méthode de validation"
+
+msgid "Characters required for validation"
+msgstr "Caractères obligatoires"
+
+msgid "Fill the required characters separated by commas"
+msgstr "Entrez les caractères requis, séparés par des virgules"
+
+msgid "Min length"
+msgstr "Longueur min"
+
+msgid "Enter the minimum required length"
+msgstr "Entrez la longueur minimum obligatoire"
+
+msgid "Max length"
+msgstr "Longueur max"
+
+msgid "Enter the maximum required length"
+msgstr "Entrez la longueur maximum obligatoire"
+
+msgid "Icon position"
+msgstr "Position de l'icône"
+
+msgid "Select the position of the icon"
+msgstr "Choisissez la position de l'icône"
+
+msgid "A visitor"
+msgstr "Un visiteur"
+
+msgid "Chats history"
+msgstr "Historiques des chats"
+
+msgid "Is operator"
+msgstr "Est un opérateur"
+
+msgid "Tooltips text color"
+msgstr "Couleur du texte des bulles"
+
+msgid "Tooltips background color"
+msgstr "Couleur de fond des bulles"
+
+msgid "Main buttons background color"
+msgstr "Couleur de fond des boutons principaux"
+
+msgid "Main buttons text color"
+msgstr "Couleur de texte des boutons principaux"
+
+msgid "Secondary buttons background color"
+msgstr "Couleur de fond des boutons secondaires"
+
+msgid "Secondary buttons text color"
+msgstr "Couleur de texte des boutons secondaires"
+
+msgid "IP"
+msgstr ""
+
+msgid "Purchase code"
+msgstr "Code d'achat"

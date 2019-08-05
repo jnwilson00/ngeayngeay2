@@ -1,0 +1,663 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: WP_Visual_Chat\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+
+msgid "Visual Chat"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Online"
+msgstr ""
+
+msgid "Offline"
+msgstr ""
+
+msgid "Log in"
+msgstr ""
+
+msgid "Log out"
+msgstr ""
+
+msgid "Drop files to upload here"
+msgstr ""
+
+msgid "File is too big (max size: {{maxFilesize}}MB)"
+msgstr ""
+
+msgid "Invalid file type"
+msgstr ""
+
+msgid "You can not upload any more files"
+msgstr ""
+
+msgid "Shows an element of the website"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Display"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Showing page %1$s of %2$s"
+msgstr ""
+
+msgid "- filtered from %1$s documents"
+msgstr ""
+
+msgid "No documents to display"
+msgstr ""
+
+msgid "Do you want to reply ?"
+msgstr ""
+
+msgid "New chat request from"
+msgstr ""
+
+msgid "Another operator has already answered"
+msgstr ""
+
+msgid "[username] stopped the chat"
+msgstr ""
+
+msgid "Current operator"
+msgstr ""
+
+msgid "[username1] tranfers the chat to [username2]"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Canned messages"
+msgstr ""
+
+msgid "You are currently"
+msgstr ""
+
+msgid "Current chats"
+msgstr ""
+
+msgid "There is currently no chat"
+msgstr ""
+
+msgid "Online users"
+msgstr ""
+
+msgid "There is currently no visitor online"
+msgstr ""
+
+msgid "Online operators"
+msgstr ""
+
+msgid "Do you want to login as chat operator ?"
+msgstr ""
+
+msgid "View history"
+msgstr ""
+
+msgid "Transfer the chat"
+msgstr ""
+
+msgid "Write your message here"
+msgstr ""
+
+msgid "Use a canned message"
+msgstr ""
+
+msgid "Transfer some files"
+msgstr ""
+
+msgid "Show an element"
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "Reply"
+msgstr ""
+
+msgid "Decline"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Login panel"
+msgstr ""
+
+msgid "Contact form"
+msgstr ""
+
+msgid "Operators roles"
+msgstr ""
+
+msgid "Design"
+msgstr ""
+
+msgid "Texts"
+msgstr ""
+
+msgid "Activate the chat"
+msgstr ""
+
+msgid "This option allows you to fully disable or enable the chat system"
+msgstr ""
+
+msgid "Enable chat only for logged users ?"
+msgstr ""
+
+msgid "Only logged users will see the chat panel"
+msgstr ""
+
+msgid "View online visitors in realtime"
+msgstr ""
+
+msgid "This option can be disabled to preserve server network resources"
+msgstr ""
+
+msgid "Users detection delay (in seconds)"
+msgstr ""
+
+msgid "The shorter the delay limit, the more network resources will be used"
+msgstr ""
+
+msgid "Operators can see the users history"
+msgstr ""
+
+msgid "Disable it to allow only administrators to see the logs"
+msgstr ""
+
+msgid "Play sound notifications for operators"
+msgstr ""
+
+msgid "The operator will be warned by a sound when there is a new message"
+msgstr ""
+
+msgid "Play sound notifications for customers"
+msgstr ""
+
+msgid "The customer will be warned by a sound when there is a new message"
+msgstr ""
+
+msgid "Activate users geolocalization"
+msgstr ""
+
+msgid "The plugin will detect the city and country of the users"
+msgstr ""
+
+msgid "Allow operators to send files"
+msgstr ""
+
+msgid "The operators will be able to send files to the customers"
+msgstr ""
+
+msgid "Allow customers to send files"
+msgstr ""
+
+msgid "The customers will be able to send files to the operators"
+msgstr ""
+
+msgid "Maximum size of files sent"
+msgstr ""
+
+msgid "Fill the maximum allowed size for uploaded files in MB"
+msgstr ""
+
+msgid "Allowed extensions for files"
+msgstr ""
+
+msgid "Enter the allowed extensions separated by commas"
+msgstr ""
+
+msgid "Show a close button"
+msgstr ""
+
+msgid ""
+"It will add a button in the chat panel that allows the customer to close the "
+"chat"
+msgstr ""
+
+msgid "Show a fullscreen button"
+msgstr ""
+
+msgid ""
+"It will add a button in the chat panel that allows the customer to show the "
+"chat in fullscreen"
+msgstr ""
+
+msgid "Show a minimize button"
+msgstr ""
+
+msgid ""
+"It will add a button in the chat panel that allows the customer to minimize "
+"the chat"
+msgstr ""
+
+msgid "Delete all logs"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Show a login panel"
+msgstr ""
+
+msgid ""
+"The visitor will directly access to the chat panel if this option is disabled"
+msgstr ""
+
+msgid "Icon"
+msgstr ""
+
+msgid "Select an icon"
+msgstr ""
+
+msgid "Add a field"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Title on backend"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Is required"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Show a contact form when there is no operator online"
+msgstr ""
+
+msgid ""
+"If this option is disabled, the chat panel will be hidden when there is no "
+"operator online"
+msgstr ""
+
+msgid "Admin email"
+msgstr ""
+
+msgid "You can add several emails separated by commas"
+msgstr ""
+
+msgid "Email subject"
+msgstr ""
+
+msgid "It will be the subject of the received email"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Allowed to be chat operator"
+msgstr ""
+
+msgid "Google font name"
+msgstr ""
+
+msgid "Chat panel position"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Choose the corner where the chat panel will be displayed"
+msgstr ""
+
+msgid "Bounce Fx"
+msgstr ""
+
+msgid "Main logo"
+msgstr ""
+
+msgid "Select an image"
+msgstr ""
+
+msgid "Default operator avatar"
+msgstr ""
+
+msgid "Customer avatar"
+msgstr ""
+
+msgid "Border radius of the chat panel"
+msgstr ""
+
+msgid "ex"
+msgstr ""
+
+msgid "Width of the chat panel"
+msgstr ""
+
+msgid "Height of the chat panel"
+msgstr ""
+
+msgid "Activate panel shadow"
+msgstr ""
+
+msgid "It will show or hide the shadow effect behind the chat panel"
+msgstr ""
+
+msgid "Shining elements color"
+msgstr ""
+
+msgid "Background color"
+msgstr ""
+
+msgid "Texts color"
+msgstr ""
+
+msgid "Main icons color"
+msgstr ""
+
+msgid "Header background color"
+msgstr ""
+
+msgid "Header text color"
+msgstr ""
+
+msgid "Header buttons background color"
+msgstr ""
+
+msgid "Header buttons text color"
+msgstr ""
+
+msgid "Scrollbar background color"
+msgstr ""
+
+msgid "Scrollbar color"
+msgstr ""
+
+msgid "Loader background color"
+msgstr ""
+
+msgid "Loader color"
+msgstr ""
+
+msgid "Labels color"
+msgstr ""
+
+msgid "Operator bubbles background color"
+msgstr ""
+
+msgid "Operator bubbles text color"
+msgstr ""
+
+msgid "Customer bubbles background color"
+msgstr ""
+
+msgid "Customer bubbles text color"
+msgstr ""
+
+msgid "Fields background color"
+msgstr ""
+
+msgid "Fields texts color"
+msgstr ""
+
+msgid "Fields border color"
+msgstr ""
+
+msgid "Active field border color"
+msgstr ""
+
+msgid "Use po file/WPML ?"
+msgstr ""
+
+msgid "Disable this option to edit the texts directly from this panel"
+msgstr ""
+
+msgid "Default text"
+msgstr ""
+
+msgid "Final text"
+msgstr ""
+
+msgid "My informations"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Avatar"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Choose a canned message"
+msgstr ""
+
+msgid "Send files"
+msgstr ""
+
+msgid "Add to my message"
+msgstr ""
+
+msgid "Navigate to the desired page and click the button below"
+msgstr ""
+
+msgid "Select the element"
+msgstr ""
+
+msgid "Click the desired element on the page"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Do you want to show the item that is highlighted ?"
+msgstr ""
+
+msgid "History of the user"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Add a new message"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Shortcut"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Edit a canned message"
+msgstr ""
+
+msgid "Keyboard shortcut"
+msgstr ""
+
+msgid "Shortcodes that can be used in the text"
+msgstr ""
+
+msgid "Displays the username"
+msgstr ""
+
+msgid "Displays the operator name"
+msgstr ""
+
+msgid "Displays the website url"
+msgstr ""
+
+msgid "Add to all operators"
+msgstr ""
+
+msgid "Edit a field"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "The title that will be displayed on frontend"
+msgstr ""
+
+msgid "Show on the backend chat panel ?"
+msgstr ""
+
+msgid "Do you want to show this information in the chat panel for operators ?"
+msgstr ""
+
+msgid "Backend label"
+msgstr ""
+
+msgid "The title that will be displayed on backend"
+msgstr ""
+
+msgid "Choose a type for this field"
+msgstr ""
+
+msgid "Type of information"
+msgstr ""
+
+msgid "Is required ?"
+msgstr ""
+
+msgid "Choose if the user must fill the field to continue"
+msgstr ""
+
+msgid "Options of the dropdown"
+msgstr ""
+
+msgid "Option value"
+msgstr ""
+
+msgid "Add a new option"
+msgstr ""
+
+msgid "Placeholder"
+msgstr ""
+
+msgid "Set the placeholder text for this field"
+msgstr ""
+
+msgid "Default value"
+msgstr ""
+
+msgid "Defines the default value of this field"
+msgstr ""
+
+msgid "Validation"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Must be filled"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Select a validation method"
+msgstr ""
+
+msgid "Characters required for validation"
+msgstr ""
+
+msgid "Fill the required characters separated by commas"
+msgstr ""
+
+msgid "Min length"
+msgstr ""
+
+msgid "Enter the minimum required length"
+msgstr ""
+
+msgid "Max length"
+msgstr ""
+
+msgid "Enter the maximum required length"
+msgstr ""
+
+msgid "Icon position"
+msgstr ""
+
+msgid "Select the position of the icon"
+msgstr ""
+
+msgid "A visitor"
+msgstr ""
+
+msgid "Chats history"
+msgstr ""
+
+msgid "Is operator"
+msgstr ""
+
+msgid "Tooltips text color"
+msgstr ""
+
+msgid "Tooltips background color"
+msgstr ""
+
+msgid "Main buttons background color"
+msgstr ""
+
+msgid "Main buttons text color"
+msgstr ""
+
+msgid "Secondary buttons background color"
+msgstr ""
+
+msgid "Secondary buttons text color"
+msgstr ""
+
+msgid "IP"
+msgstr ""
+
+msgid "Purchase code"
+msgstr ""

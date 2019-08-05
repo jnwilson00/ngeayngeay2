@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: WP_Visual_Chat_Frontend\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: fr_FR\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+
+msgid "Need Help ?"
+msgstr "Besoin d'aide ?"
+
+msgid "Start"
+msgstr "Commencer"
+
+msgid "Hello! How can we help you ?"
+msgstr "Bonjour, comment puis-je vous aider ?"
+
+msgid "This discussion is finished."
+msgstr "Cette discussion est terminée."
+
+msgid "Sorry, there is currently no operator online. Feel free to contact us by using the form below."
+msgstr "Désolé, il n'y a actuellement aucun opérateur en ligne. N'hésitez pas à nous laisser un message !"
+
+msgid "Send this message"
+msgstr "Envoyez ce message"
+
+msgid ""
+"Thank you.\n"
+"Your message has been sent.\n"
+"We will contact you soon."
+msgstr "Merci.Votre message a bien été envoyé.Nous vous recontacterons rapidement."
+
+msgid "There was an error while transferring the file"
+msgstr "Une erreur est survenue durant le transfert"
+
+msgid "The selected file exceeds the authorized size"
+msgstr "La taille du fichier sélectionné dépasse la limite autorisée"
+
+msgid "The selected type of file is not allowed"
+msgstr "Le type de fichier selectionné n'est pas autorisé"
+
+msgid "Drop files to upload here"
+msgstr "Déposez vos fichiers ici"
+
+msgid "You can not upload any more files"
+msgstr "Vous ne pouvez pas envoyer davantage de fichiers"
+
+msgid "New message from your website"
+msgstr "Nouveau message depuis votre site web"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "No"
+msgstr ""
+
+msgid "Shows an element of the website"
+msgstr "Montrer un élément du site web"
+
+msgid "[username] stopped the chat"
+msgstr "[username] a fermé le chat"
+
+msgid "Confirm"
+msgstr "Confirmer"
+
+msgid "Transfer some files"
+msgstr "Transférer des fichiers"
+
+msgid "[username1] tranfers the chat to [username2]"
+msgstr "[username1] transfère la discussion à [username2]"

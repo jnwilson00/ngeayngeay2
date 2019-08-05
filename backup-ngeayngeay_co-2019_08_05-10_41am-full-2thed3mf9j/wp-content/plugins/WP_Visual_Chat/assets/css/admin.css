@@ -1,0 +1,1292 @@
+#wpfooter {
+    display: none;
+}
+#vcht_mainWrapper {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #2c3e50;
+}
+.vcht_bootstrap #vcht_mainHeader {
+    border-radius: 0px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.5);
+    background-color: #34495e;
+    margin-bottom: 0px;
+}
+#vcht_audioMsg {display: none !important;}
+.vcht_bootstrap #vcht_mainHeader .vcht_headerNavbarLeft .fa {
+    margin-right: 6px;
+}
+.vcht_bootstrap #vcht_mainHeader #vcht_headerNavbarLeft > .navbar-nav>li>a {
+    font-size: 24px;
+}
+.vcht_bootstrap #vcht_mainHeader .navbar-form {
+    padding: 0px;
+}
+.vcht_bootstrap .dataTables_filter  {
+    text-align: right;
+}
+.vcht_bootstrap #vcht_operatorHeaderPanel {
+    display: block;
+    min-width: 280px;
+    height: 53px;
+    border-left: 1px solid #16a085;
+    position: relative;
+    padding-left: 4px;
+    padding-right: 0px;
+}
+.vcht_bootstrap table {
+    text-align: left;
+}
+.vcht_bootstrap #vcht_operatorHeaderPanel table,
+.vcht_bootstrap #vcht_operatorHeaderPanel table td {
+    border:0px;
+}
+.vcht_bootstrap #vcht_operatorHeaderPanel table td{
+    padding: 4px;
+}
+.vcht_bootstrap #vcht_operatorHeaderUsername{
+    display: block;
+    color: #f1c40f;
+}
+.vcht_bootstrap #vcht_operatorHeaderStatus{
+    color: #ecf0f1;
+    font-size: 13px;
+    display: block;
+}
+.vcht_bootstrap #vcht_operatorHeaderStatus strong {
+    color: #e74c3c;
+}
+.vcht_bootstrap.vcht_online #vcht_operatorHeaderStatus strong {
+    color: #1abc9c;
+}
+.vcht_bootstrap #vcht_operatorHeaderPic > img {
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+}
+.vcht_bootstrap #vcht_mainLogo {
+    font-weight: normal;
+    color: #1abc9c;
+    font-size: 16px;
+    line-height: 26px;
+}
+.vcht_bootstrap #vcht_mainLogo img{
+    max-height: 24px;
+    max-width: 48px;
+    display: inline-block;
+    margin-right: 2px;
+    position: relative;
+    top: -2px;
+}
+.vcht_bootstrap #vcht_operatorBtnConnect {
+    /* float: right;*/
+    line-height: 30px;
+    height: 42px;
+    min-width: 110px;
+    margin-left: 12px;
+    margin-top: 1px;
+}
+.vcht_bootstrap .btn:not(.btn-circle) > .glyphicon,
+.vcht_bootstrap .btn:not(.btn-circle) > .fa {
+    margin-right: 6px;
+}
+.vcht_bootstrap .navbar-inverse .navbar-form .btn.btn-danger {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+.vcht_bootstrap #vcht_usersListPanel {
+    position: fixed;
+    left: 0px;
+    height: 100%;
+    width: 240px;
+    z-index: 99;
+    -webkit-transition: margin-left 0.5s;
+    transition: margin-left 0.5s;
+    border-right: 1px solid #34495e;
+}
+.vcht_bootstrap #vcht_usersListPanel.vcht_collapsed{
+    margin-left: -280px;
+}
+
+.vcht_bootstrap .vcht_panelHeader{
+    background-color: #1abc9c;
+    padding: 14px;
+    color: white;
+    font-weight: bold;
+}
+.vcht_bootstrap .vcht_panelHeader .fa {
+    margin-right: 4px;
+}
+.vcht_bootstrap .vcht_panelBody {
+    overflow-y: auto;
+    background-color: #2c3e50;
+    font-size: 15px;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+.vcht_bootstrap .vcht_panelBody p{
+    font-size: 15px;
+    line-height: 20px;
+}
+.vcht_bootstrap .vcht_fullPanel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1;
+    background-color: white;
+    left: 0px;
+    -webkit-transition: all 0.25s;
+    transition: all 0.5s;
+    overflow-y: hidden;
+    text-align: left;
+}
+.vcht_bootstrap .vcht_fullPanelHeader {
+    padding: 4px;
+    text-align: left;
+    color: white;
+    background-color: #1abc9c;
+    padding: 14px;
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+}
+.vcht_bootstrap .vcht_panelHeader {
+    font-weight: normal;
+    font-size: 16px;    
+}
+.vcht_bootstrap .vcht_fullPanel .vcht_fullPanelHeader > .fa {
+    margin-right: 4px;
+}
+
+.vcht_bootstrap .vcht_fullPanelTb {
+    position: absolute;
+    right: 4px;
+    top: 8px;
+}
+.vcht_bootstrap .vcht_fullPanelBody {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.vcht_bootstrap #vcht_backgroundPanel {
+    text-align: center;
+    padding-top: 180px;
+    color: white;
+    display: block;
+    background-color: #2c3e50;
+}
+.vcht_bootstrap .dataTables_paginate  {
+    text-align: right;
+    
+}
+.vcht_bootstrap #vcht_backgroundPanelTitle strong {
+    color: #e74c3c;
+}
+.vcht_bootstrap.vcht_online #vcht_backgroundPanelTitle strong {
+    color: #1abc9c;
+}
+.vcht_bootstrap [role="tabpanel"] .nav-tabs>li>a,
+.vcht_bootstrap [role="tabpanel"] .nav-tabs>li>a:hover
+{
+    border-bottom: 0px;
+    background-color: #ecf0f1;
+
+}
+.vcht_bootstrap .tab-content {
+    background-color: #ecf0f1;
+    border-top-left-radius: 0px;
+}
+.vcht_bootstrap #vcht_adminSettingsContainer {
+    text-align: left;
+}
+
+.vcht_bootstrap .tooltip {
+    z-index: 999999999;
+}
+.vcht_bootstrap .vcht_fixedTooltip {
+    position: fixed;
+    z-index: 9999999999;
+    margin-top: -4px;
+}
+
+.vcht_bootstrap .tooltip.vcht_fixedTooltip .tooltip-inner {
+    background-color: #16a085;
+}
+.vcht_bootstrap  .tooltip.vcht_fixedTooltip.bottom > .tooltip-arrow {
+    border-bottom-color: #16a085;
+}
+.vcht_bootstrap .tooltip.vcht_fixedTooltip.top > .tooltip-arrow {
+    border-top-color: #16a085;
+}
+.vcht_bootstrap #vcht_adminSettingsContainer .tooltip .tooltip-inner {
+    background-color: #1abc9c;
+}
+.vcht_bootstrap #vcht_adminSettingsContainer .tooltip.bottom > .tooltip-arrow {
+    border-bottom-color: #1abc9c;
+}
+.vcht_bootstrap #vcht_adminSettingsContainer .tooltip.top > .tooltip-arrow {
+    border-top-color: #1abc9c;
+}
+.vcht_bootstrap .form-group > label {
+    width: 190px;
+    line-height: 20px !important;
+    text-align: right;
+    margin-right: 18px;
+}
+.vcht_bootstrap .form-control {
+    width: 230px;
+    max-width: 100%;
+    display: inline-block;
+}
+.vcht_bootstrap select.form-control option {
+    color: white;
+}
+.vcht_bootstrap .vcht_userListItem {
+    padding: 8px;
+    background-color: #34495e;
+    color: white;
+    margin-bottom: 1px;
+    text-align: left;
+    line-height: 26px;
+}
+.vcht_bootstrap .vcht_userListItem a.btn.btn-circle {
+    float: right;
+    border-radius: 16px;
+    padding: 4px;
+    height: 28px;
+    line-height: 18px;
+    width: 28px;
+}
+.vcht_bootstrap .vcht_userListItem .vcht_avatarContainer {
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0;
+}
+.vcht_bootstrap #vcht_usersListPanel .vcht_panelBody {
+    padding: 0px;
+}
+
+.vcht_bootstrap a.btn.btn-circle {
+    border-radius: 24px;
+    width: 38px;
+    height: 38px;
+    padding: 10px;
+    line-height: 12px;
+    display: inline-block;
+}
+.vcht_bootstrap table a.btn.btn-circle {
+    margin-right: 4px;
+}
+.vcht_bootstrap a.btn.btn-circle {
+    position: relative;
+}
+.vcht_bootstrap a.btn.btn-circle > span.glyphicon,
+.vcht_bootstrap a.btn.btn-circle > span.fa  {
+    margin: 0px;
+}
+.vcht_bootstrap #vcht_chatPanel {
+    position: fixed;
+    width: 100%;
+    left:0px;
+    z-index: 200;
+    bottom: 0px;
+    -webkit-transition: height 0.3s;
+    transition: height 0.3s;
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelHeader {
+    background-color: #16a085;
+    color: white;
+    padding: 6px;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    position: relative;
+    z-index: 9;
+}
+.vcht_bootstrap #vcht_chatPanel.vcht_hidden #vcht_chatPanelHeader {
+    /* opacity: 0;*/
+    height: 0px;
+    display: none;
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelHeader #vcht_chatPanelHeaderRightTb {
+    float: right;
+    padding-top: 2px;
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelHeader #vcht_chatPanelHeaderRightTb > a.btn-circle,
+.vcht_bootstrap .vcht_fullPanelTb  > a.btn-circle{
+    margin-left: 4px;
+    border-radius: 16px;
+    padding: 4px;
+    height: 28px;
+    line-height: 18px;
+    width: 28px;
+}
+
+.vcht_bootstrap #vcht_chatPanel .vcht_chatPanelBody{
+    /*-webkit-transition: height 0.3s;
+    transition: height 0.3s;*/
+    background-color: #34495e;
+    overflow: hidden;
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelHeaderImg {
+    max-width: 28px;
+    max-height: 28px;
+}
+.vcht_bootstrap  #vcht_chatPanel #vcht_chatPanelHeaderName {
+    font-size: 16px;
+    line-height: 28px;
+}
+.vcht_bootstrap  #vcht_chatPanel #vcht_chatPanelDetails {
+    border-right: 1px solid #16a085;
+    color: white;
+    float: left;
+    width: 240px;
+    padding: 14px;
+    padding-right: 0px;
+    height: 100%;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 2;
+}
+.vcht_bootstrap  #vcht_chatPanel #vcht_chatPanelDetails.mCS_no_scrollbar,
+.vcht_bootstrap  #vcht_chatPanel #vcht_chatPanelDetails:not(.mCustomScrollbar){
+    padding-right: 14px;    
+}
+.vcht_bootstrap  #vcht_chatPanel #vcht_chatPanelHistory {
+    height: 100%;
+    /* margin-top: -48px; */
+    position: relative;
+    top: -48px;
+    padding: 18px;
+    padding-top: 66px;
+    padding-right: 0px;
+    overflow-y: hidden;
+    color: white;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+.vcht_bootstrap  #vcht_chatPanel #vcht_chatPanelWriteContainer {
+    margin-top: -48px;
+    padding-left: 248px;
+    color: #fff;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+.vcht_bootstrap  #vcht_chatPanel #vcht_chatPanelWriteContainer > label {
+    margin-right: 6px;
+}
+.vcht_bootstrap  #vcht_chatPanel #vcht_chatPanelWriteContainer textarea{
+    height: 38px;
+    font-size: 16px;
+    vertical-align: middle;
+    color: #bdc3c7;
+    line-height: 18px;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    resize: none;
+}
+
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelWriteContainer .tooltip  .tooltip-inner{    
+    background-color: #16a085;
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelWriteContainer .tooltip .tooltip-arrow{
+    border-top-color: #16a085;
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelContent {
+    height: 100%;
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelBtnsTb {
+    margin-left: 4px;
+    display: inline-block;
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelBtnsTb > a {
+    margin-left: 4px;
+}
+
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelCannedMsgBtn {
+    font-size: 32px;
+    vertical-align: middle;
+    margin-right: 4px;
+    position: relative;
+    color: #bdc3c7;
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    text-align: center;
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelFilesBtn {
+    font-size: 32px;
+    vertical-align: middle;
+    margin-right: 4px;
+    position: relative;
+    color: #bdc3c7;
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    text-align: center;
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelShowElementBtn {
+    font-size: 32px;
+    vertical-align: middle;
+    margin-right: 4px;
+    position: relative;
+    color: #bdc3c7;    
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    text-align: center;
+
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelFilesBtn > span,
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelShowElementBtn > span,
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelCannedMsgBtn > span {
+    padding-top: 4px;
+}
+
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelFilesBtn.vcht_active,
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelShowElementBtn.vcht_active,
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelCannedMsgBtn.vcht_active{
+    color: #1abc9c;
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelFilesBtn .badge {
+    position: absolute;
+    margin-left: -10px;
+    border-radius: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    opacity: 0;
+    -webkit-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+    width: 21px;
+    height: 21px;
+    line-height: 12px;
+    color: #34495e;
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelFilesBtn.vcht_active .badge{
+    opacity: 1;
+}
+
+.vcht_bootstrap .vcht_message {
+    margin-bottom: -28px;
+    position: relative;
+    display: none;
+    text-align: left;
+}
+.vcht_bootstrap .vcht_message .vcht_avatar{
+    max-width: 48px;
+    max-height: 48px;
+    /* float: left;*/
+    margin-right: 18px;
+    position: relative;
+    top: 12px;
+}
+
+.vcht_bootstrap .vcht_message .vcht_bubble {
+    border-radius: 3px;
+    width: auto;
+    display: inline-block;
+    padding: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 9px;
+    top: -5px;
+    line-height: 20px;
+}
+.vcht_bootstrap .vcht_message.vcht_operatorMsg .vcht_bubble,
+.vcht_bootstrap .vcht_message .vcht_bubble  {
+    background-color: #ecf0f1;
+    color: #95a5a6;
+    border-radius: 3px;
+    position: relative;
+}
+.vcht_bootstrap .vcht_message.vcht_operatorMsg .vcht_bubble:before,
+.vcht_bootstrap .vcht_message .vcht_bubble:before {
+    content: " ";
+    position: absolute;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 10px 9px 0;
+    border-color: transparent #ecf0f1 transparent transparent;
+}
+.vcht_bootstrap .vcht_message:not(.vcht_operatorMsg) .vcht_bubble{
+    background-color: #1abc9c;
+    color: #ffffff;    
+}
+.vcht_bootstrap .vcht_message:not(.vcht_operatorMsg) .vcht_bubble a{
+    color: #ffffff;    
+}
+.vcht_bootstrap .vcht_message:not(.vcht_operatorMsg) .vcht_bubble:before{
+    border-color: transparent #1abc9c transparent transparent;    
+}
+
+
+.vcht_bootstrap .vcht_message .vcht_infos {
+    font-size: 12px;
+    color: #f1c40f;
+    position: relative;
+    top: -5px;
+}
+.vcht_bootstrap .vcht_message .vcht_bubbleContainer {
+    margin-left: 68px;
+    position: relative;
+    top: -48px;
+    left: 0px;
+}
+.vcht_bootstrap .vcht_message .vcht_elementShown{
+    display: block;
+    padding: 2px;
+    border: 1px dashed #ecf0f1;
+    margin-top: 4px;
+}
+.vcht_bootstrap .vcht_alertPoint {
+    margin-left: 4px;
+    /* width: 20px; */
+    /* border-radius: 10px; */
+    padding: 0px;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #1abc9c;
+   /* opacity: 0;*/
+    display: inline-block;
+    position: relative;
+    top: -9px;
+    -webkit-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+    animation: blinker 1s linear infinite;
+}
+.vcht_bootstrap #vcht_chatPanelHeader .vcht_alertPoint {
+    background-color: #2c3e50;
+}
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+
+
+.vcht_bootstrap #vcht_chatPanel.vcht_fullscreen #vcht_chatPanelWriteContainer{
+    margin-top: -96px;
+}
+.vcht_bootstrap #vcht_chatPanel.vcht_fullscreen #vcht_chatPanelMsgArea {
+    height: 86px;
+    vertical-align: top;
+}
+.vcht_bootstrap #vcht_chatPanel #vcht_chatPanelMsgArea.vcht_error {
+    border-color: #e74c3c;
+    color: #e74c3c;
+}
+.vcht_bootstrap #vcht_chatPanel.vcht_fullscreen #vcht_chatPanelHistory {
+    top:-96px;
+    padding-top: 114px;
+}
+
+#vcht_loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #16a085;
+    z-index: 99999999;
+}
+.vcht_loaderCt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.vcht_loaderDot {
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+    margin: 0 5px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation: fx 1000ms ease infinite 0ms;
+    animation: fx 1000ms ease infinite 0ms;
+}
+.vcht_loaderDot:nth-child(2) {
+    -webkit-animation: fx 1000ms ease infinite 300ms;
+    animation: fx 1000ms ease infinite 300ms;
+}
+.vcht_loaderDot:nth-child(3) {
+    -webkit-animation: fx 1000ms ease infinite 600ms;
+    animation: fx 1000ms ease infinite 600ms;
+}
+@-webkit-keyframes fx {
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fx {
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.vcht_bootstrap .modal.in .modal-dialog {
+    z-index: 999999;
+}
+.vcht_bootstrap .vcht_dropzone {
+    border: 2px dashed #ecf0f1;
+}
+.vcht_bootstrap .vcht_modalCloseBtn {
+    float: right;
+    font-size: 24px;
+}
+.vcht_bootstrap .vcht_messageFile {
+    padding: 2px;
+    border: 1px dashed #ecf0f1;
+    margin-top: 4px;
+}
+
+.vcht_bootstrap .vcht_messageFile .fa,
+.vcht_bootstrap .vcht_elementShown .fa{
+    margin-right: 4px;
+}
+.vcht_bootstrap #vcht_webFrame {
+    padding: 0px;
+}
+.vcht_bootstrap #vcht_selectionInfoPanel {
+    position: fixed;
+    z-index: 99;
+    top: 85px;
+    border-top: 2px solid #1abc9c;
+    right: 0px;
+    width: 280px;
+    margin-left: -140px;
+    background-color: #34495e;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    display: none;
+    padding: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: auto !important;
+}
+.vcht_bootstrap #vcht_selectionInfoPanel [data-step] {
+    display: none;
+}
+.vcht_bootstrap #vcht_selectionInfoPanel p{
+    font-size: 14px;
+    line-height: 18px;
+}
+.vcht_bootstrap #vcht_selectionInfoPanel p:last-child{
+    margin-bottom: 0px;
+}
+.vcht_bootstrap #vcht_selectionInfoPanel .vcht_closeBtn {
+    float: right;
+    font-size: 28px;
+    margin-top: -8px;
+    margin-right: -10px;
+    margin-left: 8px;
+}
+.vcht_bootstrap #vcht_selectionInfoPanel [data-step] > p:first-child > .fa{
+    float: left;
+    font-size: 38px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+#vcht_loaderFrame {
+    z-index: 10;
+    background-color: #16a085;
+    display: none;
+}
+.vcht_bootstrap #vcht_adminSettingsPanel {
+    z-index: 50;
+    background-color: #ecf0f1;
+}
+.vcht_bootstrap #vcht_adminSettingsPanel .vcht_fullPanelBody {
+    padding-top: 0px;
+}
+.vcht_bootstrap #vcht_adminSettingsPanel .vcht_fullPanelBody .vcht_scrollbar {
+    position: relative;
+    height: 100%;
+    max-height: 100%;
+}
+.vcht_bootstrap #vcht_adminSettingsPanel .vcht_fullPanelBody .nav.nav-tabs{
+    width: 100%;
+    background: #2c3e50;
+    border-top: 1px solid #2c3e50;
+    margin-bottom: 0px;
+}
+.vcht_bootstrap #vcht_adminSettingsPanel .vcht_fullPanelBody .nav.nav-tabs >li>a  {
+    margin-bottom: 3px;
+    background-color: #ecf0f1;
+    border-radius: 0px;
+    margin-right: 1px;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.vcht_bootstrap #vcht_adminSettingsPanel .vcht_fullPanelBody .nav.nav-tabs >li.active>a  {
+    background-color: #16a085;
+    color: white;
+}
+.vcht_bootstrap #vcht_adminSettingsPanel .vcht_fullPanelBody .nav.nav-tabs >li>a > .fa {
+    margin-right: 6px;
+}
+.vcht_bootstrap #vcht_adminSettingsPanel .tab-content {
+    border: 0px;
+}
+.vcht_bootstrap #vcht_adminSettingsPanel [role="tabpanel"]{
+    border: 0px;
+    position: relative;
+    height: 100%;
+    max-height: 100%;
+}
+.vcht_bootstrap #vcht_adminSettingsPanel .vcht_scrollbar .mCSB_scrollTools {
+    top: 8px;
+    bottom: 51px;
+}
+.vcht_bootstrap #vcht_userHistoryPanel {
+    text-align: left;
+}
+.vcht_bootstrap .form-group > label {
+    vertical-align: middle;
+}
+.vcht_bootstrap .form-group textarea.form-control {
+    vertical-align: top;
+}
+.vcht_bootstrap #vcht_winCannedMessage .form-group > label {
+    vertical-align: middle;    
+}
+.vcht_bootstrap .bootstrap-switch {
+    margin-top: 12px;
+}
+.vcht_bootstrap .modal .form-group > label {
+    vertical-align: middle;
+}
+.vcht_bootstrap .modal .form-group > textarea {
+    vertical-align: middle;
+}
+.vcht_bootstrap .vcht_fullPanelHeader .vcht_closeBtn {
+    background-color: #34495e;
+}
+.vcht_bootstrap .vcht_fullPanelHeader .vcht_closeBtn:hover,
+.vcht_bootstrap .vcht_fullPanelHeader .vcht_closeBtn:active {
+    background-color: #2c3e50;
+}
+.vcht_bootstrap table.table {
+    border: 1px solid #ecf0f1
+}
+.vcht_bootstrap .pagination > .active > a, .bootstrap-datetimepicker-widget .pagination > .active > a, .vcht_bootstrap .pagination > .active > span, .bootstrap-datetimepicker-widget .pagination > .active > span, .vcht_bootstrap .pagination > .active > a:hover, .bootstrap-datetimepicker-widget .pagination > .active > a:hover, .vcht_bootstrap .pagination > .active > span:hover, .bootstrap-datetimepicker-widget .pagination > .active > span:hover, .vcht_bootstrap .pagination > .active > a:focus, .bootstrap-datetimepicker-widget .pagination > .active > a:focus, .vcht_bootstrap .pagination > .active > span:focus, .bootstrap-datetimepicker-widget .pagination > .active > span:focus {
+    border-color: #1ABC9C;
+    background-color: #1ABC9C;
+}
+.vcht_bootstrap .pagination > li > a, .bootstrap-datetimepicker-widget .pagination > li > a, .vcht_bootstrap .pagination > li > span, .bootstrap-datetimepicker-widget .pagination > li > span {
+    color: #1ABC9C;
+    background-color: #ecf0f1;
+}
+.vcht_bootstrap .pagination li.next>a {
+    background-color: #ecf0f1;
+    color: #bdc3c7;
+}
+.vcht_bootstrap .pagination li.next>a:hover,
+.vcht_bootstrap .pagination li.next>a:active {
+    background-color: #1abc9c;
+}
+.vcht_bootstrap #vcht_userHistoryPanel .vcht_fullPanelBody {
+    max-height: 100%;
+}
+.vcht_bootstrap .mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #2c3e50;
+}
+.vcht_bootstrap #vcht_cannedMsgsTable td{
+    vertical-align: middle;
+}
+.vcht_bootstrap .dataTables_info {
+    text-align: left;
+}
+.vcht_bootstrap .navbar-header {
+    margin-right: 18px;
+}
+.vcht_bootstrap .nav-tabs>li.clearfix {
+    float: none;
+    clear: both;
+}
+
+.vcht_bootstrap .table>thead>tr>th {
+    background-color: #34495e;
+    color: white;
+}
+
+.vcht_bootstrap .vcht_iconslist{
+    max-height: 340px;
+    overflow-y: auto;
+    max-width: 250px;
+    position: absolute;
+}
+.vcht_bootstrap .vcht_iconslist li{
+    display: inline-block;
+
+}
+.vcht_bootstrap .vcht_iconslist li a {
+    width: 56px;
+    max-width: 56px;
+    text-align: center;
+}
+.vcht_bootstrap .vcht_iconslist li i {
+    font-size: 24px;
+    display: inline-block;
+}
+.vcht_bootstrap .vcht_iconslist.dropdown-menu {
+    min-width: 250px;
+}
+.vcht_bootstrap .btn-default .caret{
+    border-bottom-color: #fff;
+    border-top-color: #fff;
+}
+.vcht_bootstrap #vcht_editFieldPanel {
+    z-index: 52;
+}
+
+.vcht_bootstrap #vcht_loginFieldsTable tbody tr,
+.vcht_bootstrap #vcht_contactFieldsTable tbody tr {
+    cursor: move;
+    -webkit-transition: -webkit-box-shadow 1s;
+    transition: box-shadow 1s;
+}
+.vcht_bootstrap #vcht_loginFieldsTable tbody .ui-sortable-helper,
+.vcht_bootstrap #vcht_contactFieldsTable tbody .ui-sortable-helper  {
+    display: table;
+    background-color: #FFF;
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+.vcht_bootstrap select.form-control {
+    color: #fff;
+    background-color: #bdc3c7;
+    border-color: #bdc3c7;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    border-width: 0;
+}
+
+.vcht_bootstrap .table:not(.table-striped).table-bordered {
+    background-color: white;
+}
+.vcht_bootstrap .table .vcht_actionTh {
+    width: 189px;
+}
+
+.vcht_bootstrap .tooltip {
+    position: absolute;
+    z-index: 999999999;
+}
+.vcht_bootstrap #vcht_adminSettingsPanel .vcht_fullPanelBody .nav.nav-tabs>li>a {
+    color: white;
+    background-color: #16a085;
+    font-weight: normal;
+    font-size: 16px;
+}
+.vcht_bootstrap #vcht_adminSettingsPanel .vcht_fullPanelBody .nav.nav-tabs>li.active>a {
+    color: white;
+    background-color: #1abc9c;
+}
+
+.vcht_bootstrap input.form-control.colorpick {
+    max-width: 158px !important;
+    display: inline-block;
+}
+.vcht_bootstrap .vcht_colorPreview {
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    border: 2px solid #bdc3c7;
+    display: inline-block;
+    margin-right: 14px;
+    position: relative;
+    margin-bottom: -15px;
+    -webkit-transition: background-color 0.8s;
+    transition: background-color 0.8s;
+}
+
+.vcht_bootstrap .navbar-collapse .navbar-nav.navbar-left:first-child>li:first-child a {
+    border-radius: 0px;
+}
+.vcht_bootstrap .navbar-collapse {
+    visibility: visible;
+}
+
+.vcht_bootstrap #vcht_btnGoogleFont {
+    margin-left: 6px; display: inline-block;
+    margin-top: -5px;
+}
+@media (max-width: 1200px) {
+    .vcht_bootstrap #vcht_btnGoogleFont {
+        /*margin-top: 2px;*/
+    }
+}
+.vcht_bootstrap #vcht_cannedMsgsTable_filter input{
+    margin-left: 12px;
+}
+
+.vcht_bootstrap .dataTables_info {
+    margin-left: 2px;
+    margin-top: -18px;
+}
+.vcht_bootstrap #vcht_cannedMsgsTable_paginate {
+    text-align: right;
+}
+.vcht_bootstrap #vcht_settingsTextsTable .form-control {
+    width: 100%;
+}
+.vcht_bootstrap #vcht_settingsTextsTable textarea.form-control {
+    height: 80px;
+}
+.vcht_bootstrap #vcht_settingsTextsTable td {
+    vertical-align: top;
+}
+.vcht_bootstrap #vcht_tabSettingsDesign .form-control:not(.colorpick) {
+    width: 211px;
+}
+#vcht_adminSettingsPanel .bootstrap-switch {
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+.vcht_bootstrap .vcht_notice  {
+    position: fixed;
+    z-index: 20;
+    background-color: #1abc9c;
+    color: white;
+    padding: 14px;
+    right: 18px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+}
+.vcht_bootstrap .vcht_notice > .vcht_noticeIcon  {
+    font-size: 28px;
+    float: left;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+.vcht_bootstrap .vcht_notice .vcht_noticeHeader {
+    color: #2c3e50;
+    font-weight: bold;
+}
+.vcht_bootstrap .vcht_notice .vcht_noticeBtns {
+    text-align: center;
+    padding-top: 4px;
+}
+.vcht_bootstrap .vcht_notice .vcht_noticeBtns > a.btn:not(:last-child) {
+    margin-right: 8px;
+}
+.vcht_bootstrap .vcht_notice p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+.vcht_bootstrap #vcht_chatReqAnswerContainer {
+    display: none;
+    text-align: left;
+    margin-top: -48px;
+    height: 48px;
+    color: white;
+    font-size: 16px;
+    padding-left: 254px;
+}
+.vcht_bootstrap #vcht_chatReqAnswerContainer a.btn {
+    margin-left: 6px;
+}
+.vcht_bootstrap .vcht_dropzone .dz-preview .dz-remove {
+    font-size: 24px;
+    position: absolute;
+    right: -10px;
+    outline: none;
+    top: -10px;
+    text-decoration: none;
+    z-index: 999;
+}
+.vcht_bootstrap #vcht_winPickCannedMsg .modal-dialog {
+    width: 380px;
+}
+.vcht_bootstrap #vcht_winPickCannedMsg .modal-dialog select {
+    width: 100%;
+}
+.vcht_bootstrap #vcht_chatPanel .tooltip .tooltip-inner{
+    background-color: #2c3e50;
+}
+.vcht_bootstrap #vcht_chatPanel .tooltip .tooltip-arrow{
+    border-top-color: #2c3e50;
+}
+.vcht_bootstrap #vcht_fieldsInfos li strong {
+    font-weight: normal;
+    color: #1abc9c;
+}
+.vcht_bootstrap #vcht_viewUserHistoryBtn {
+    width: 100%;
+}
+.vcht_bootstrap .vcht_bubblePanel {
+    display: none;    
+    position: absolute;
+    max-width: 320px;
+    z-index: 99;
+    background-color: #ecf0f1;
+    padding: 14px;
+    border-radius: 6px;
+}
+.vcht_bootstrap .vcht_bubblePanel.vcht_show {
+    display: block;
+}
+.vcht_bootstrap .vcht_bubblePanel:before {
+    content: " ";
+    position: absolute;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 8px 10px 8px;
+    border-color: transparent transparent #ecf0f1 transparent;
+}
+.vcht_bootstrap .vcht_bubblePanelBody {
+    padding: 14px;
+}
+.vcht_bootstrap .vcht_bubblePanelBody > label {
+    width: 100%;
+    text-align: left;
+}
+.vcht_bootstrap .btn-circle.imageBtn {
+    top: -4px;
+}
+.vcht_bootstrap .navbar-right {
+    margin-right: 0px;
+}
+.vcht_bootstrap #vcht_fullHistoryTable_filter input,
+.vcht_bootstrap #vcht_userHistoryTable_filter input {
+    margin-left: 8px;    
+}
+.vcht_bootstrap .vcht_hidden {
+    display: none;
+}
+@media (max-width: 900px) {
+    .vcht_bootstrap #vcht_chatPanelDetails {
+        display: none;
+    }
+    .vcht_bootstrap #vcht_usersListPanel {
+    }
+}
+@media (max-width: 782px) {
+    #vcht_mainWrapper {        
+        width: 100% !important;
+        margin-left: 0px !important;
+        left: 0px !important;
+        top: 0px !important;
+        position: absolute;
+        height: auto !important;
+    }
+    .vcht_bootstrap #vcht_usersListPanel {
+        width: 100% !important;
+        margin-left: 0px !important;
+        left: 0px !important;
+        position: relative;
+        top: 0px !important;
+        height: auto !important;
+        z-index: 1;
+    }
+    .vcht_bootstrap .nav>li {
+        position: relative;
+        display: inline-block;
+        top: 4px;
+    }
+    .vcht_bootstrap .vcht_fullPanel .nav>li {
+        top:0px;
+        float: none;
+        margin-bottom: 2px;
+    }
+    .vcht_bootstrap .vcht_fullPanel .nav.nav-tabs {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .vcht_bootstrap #vcht_mainHeader .navbar-toggle {
+        display: none !important;
+    }
+    .vcht_bootstrap #vcht_mainHeader .navbar-form {
+        margin: 0px !important;
+    }
+    .vcht_bootstrap #vcht_operatorHeaderPanel table {
+        width: 100%;
+        position: relative;
+        top: -5px;
+    }
+    .vcht_bootstrap #vcht_operatorHeaderPanel table td {
+        width: auto;
+    }
+    .vcht_bootstrap #vcht_operatorHeaderPanel table td:last-child{
+        text-align: right;
+    }
+    .vcht_bootstrap #vcht_mainHeader .navbar-nav.navbar-left {
+        text-align: right;
+        padding-right: 18px;        
+        margin: 0px;
+        margin-top: 4px;
+    }
+    .vcht_bootstrap #vcht_mainHeader .navbar-nav>li>a {
+        padding: 4px;
+    }
+    .vcht_bootstrap #vcht_operatorHeaderPanel {
+        height: auto;
+        padding-top: 4px;
+    }
+    #vcht_usersListPanel {
+        position: relative;
+    }
+    .vcht_bootstrap #vcht_mainLogo {
+        padding: 8px;
+        margin-top: 4px;
+    }
+    #wpcontent,.auto-fold #wpcontent {
+        padding-left: 0px;
+    }
+    #vcht_onlineOperatorsList {
+        border-bottom: 2px solid #16a085;
+
+    }
+    .vcht_bootstrap #vcht_backgroundPanel {
+        height: auto !important;
+        position: relative;
+        padding-top: 0px;
+        display:none !important;
+    }
+    .vcht_bootstrap .vcht_panelBody {
+        height: auto !important;
+    }
+    .vcht_bootstrap #vcht_webFrame, .vcht_bootstrap #vcht_chatPanelShowElementBtn {
+        display: none !important;
+    }
+    .vcht_bootstrap #vcht_chatPanel {
+        position: relative;
+        bottom: auto;
+        left: 0px !important;
+        width: 100% !important;
+    }
+    .vcht_bootstrap #vcht_chatPanel.vcht_hidden {
+        display: none !important;
+    }
+    #wpwrap {
+        background-color: #2c3e50;
+    }
+    .vcht_bootstrap #vcht_chatPanel #vcht_chatPanelWriteContainer,
+    .vcht_bootstrap #vcht_chatPanel #vcht_chatReqAnswerContainer{
+        padding-left: 8px !important;
+        padding-bottom: 18px;
+    }
+    .vcht_bootstrap #vcht_chatPanel #vcht_chatReqAnswerContainer{
+        height: auto;
+        padding-bottom: 58px;
+    }
+    .vcht_bootstrap #vcht_chatPanel #vcht_chatReqAnswerContainer a{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .vcht_bootstrap #vcht_chatPanel #vcht_chatPanelWriteContainer #vcht_chatPanelMsgArea {        
+        height: 80px;
+    }
+    .vcht_bootstrap #vcht_chatPanel .vcht_chatPanelBody {
+        height: auto !important;
+        max-height: none;
+    }
+    .vcht_bootstrap #vcht_chatPanel .vcht_chatPanelBody .mCSB_scrollTools {
+        display: none !important;
+    }
+    .vcht_bootstrap #vcht_chatPanelMinifyBtn,
+    .vcht_bootstrap #vcht_chatPanelFullscreenBtn {
+        display: none !important;
+    }
+    .vcht_bootstrap .modal-content {
+        margin-top: 46px;
+    }
+    .vcht_bootstrap .vcht_fullPanel{
+        position: fixed;
+        z-index: 800;
+        top: 46px;  
+        height: 100%;
+        max-height: 100%;
+        overflow-y: auto;
+    }
+    .vcht_bootstrap .vcht_fullPanel .vcht_fullPanelBody{
+        height: auto !important;
+    }
+    .vcht_bootstrap #vcht_winPickCannedMsg .modal-dialog {
+        margin: 0px;
+    }
+    .vcht_bootstrap #vcht_usersListPanel.vcht_collapsed{
+        display: none;
+    }
+    #wpbody-content > .updated{
+        display: none;
+    }
+    .vcht_bootstrap .vcht_fullPanel {        
+        width: 100% !important;
+        left: 0px !important;
+    }
+    .vcht_bootstrap .form-group>label{
+        display: block;
+        text-align: left;
+    }
+    .vcht_bootstrap .vcht_fullPanel .nav>li {
+        display: block;
+    }
+    .vcht_bootstrap #vcht_adminSettingsPanel .vcht_fullPanelBody .nav.nav-tabs>li>a>.fa {
+        font-size: 14px;
+    }
+    .vcht_bootstrap .form-control {
+        width: 100%;
+    }
+    .vcht_bootstrap #vcht_adminSettingsPanel .vcht_fullPanelBody .btn.btn-primary{
+        width: 100%;
+        margin-top: 22px;
+    }
+    .vcht_bootstrap #vcht_loginFieldsTable tr td:nth-child(2),
+    .vcht_bootstrap #vcht_loginFieldsTable tr td:nth-child(4),
+    .vcht_bootstrap vcht_contactFieldsTable tr td:nth-child(2),
+    .vcht_bootstrap vcht_contactFieldsTable tr td:nth-child(4){
+        display: none;
+    }
+    .vcht_bootstrap #vcht_tabSettingsDesign .form-control[name="chatLogo"],
+    .vcht_bootstrap #vcht_tabSettingsDesign .form-control[name="defaultImgAvatar"],
+    .vcht_bootstrap #vcht_tabSettingsDesign .form-control[name="customerImgAvatar"] {
+        max-width: 220px;
+        width: 220px;
+    }
+    #vcht_btnCannedMsgs,#vcht_chatPanelCannedMsgBtn,#vcht_chatPanelShowElementBtn { display: none !important;}
+}
+@media (max-width: 480px) {
+    #vcht_mainWrapper {
+        top: 46px !important;
+    }
+    .vcht_bootstrap #vcht_mainHeader .navbar-nav.navbar-left {
+        margin-top: 0px;
+        padding-right: 0px;
+    }
+    .vcht_bootstrap #vcht_mainLogo {
+        margin-top: 0px;
+    }
+    #vcht_adminSettingsPanel .nav>li.clearfix {
+        margin-bottom: -2px;
+    }
+}
